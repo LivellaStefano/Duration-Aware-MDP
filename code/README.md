@@ -106,7 +106,7 @@ Similar to `plot.py`, but processes experimental reward data from contextual sim
 ## contextual_strategies.py
 Implements and evaluates exploration strategies in a contextual environment using a logistic model for action-dependent exit probabilities. The script generates fixed contextual action sets, simulates episodes over multiple runs, and records rewards and exit times for subsequent performance analysis.
 
-## Setup and Dependencies
+### Setup and Dependencies
 This implementation relies on libraries from the original `ada-OFU-ecoLogB` repository. To run the script, the following setup steps are required:
 - Clone the `ada-OFU-ecoLogB` repository https://github.com/criteo-research/logistic_bandit.
 - Replace the original `arm_set.py` file in the cloned repository with the modified version provided.
